@@ -130,11 +130,10 @@ def get_data(url):
     return df
 
 
-url = 'data/full_accident_data_time_series.parquet'
-df = get_data(url)
-
-
 def main():
+    url = 'data/full_accident_data_time_series.parquet'
+    df = get_data(url)
+    
     # Colors:
     # Blue = #182D40
     # Light Blue = #82a6c0

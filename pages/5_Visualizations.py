@@ -124,11 +124,11 @@ def get_data(url):
     return df
 
 
-url = 'data/full_accident_data_time_series.parquet'
-df = get_data(url)
-
-
 def main():
+    
+    url = 'data/full_accident_data_time_series.parquet'
+    df = get_data(url)
+    
     st.markdown(
             """
             <style>
