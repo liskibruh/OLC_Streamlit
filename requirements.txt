@@ -8,3 +8,4 @@ cufflinks
 seaborn
 missingno
 altair
+pyarrow<25.0.0
